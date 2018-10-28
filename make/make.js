@@ -1,5 +1,5 @@
 module.exports = function make(...arr) {
-  const current = [arr[0]];
+  const current = arr;
   function f(...arg) {
     if (typeof arg[0] !== 'function') {
       current.push(...arg);

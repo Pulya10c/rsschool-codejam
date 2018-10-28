@@ -4,7 +4,7 @@
   "description": "function!",
   "main": "index.js",
   "scripts": {
-    "test": "mocha sumTest",
+    "test": "mocha sumTest makeTest",
     "sumTest": "mocha sumTest.js",
     "makeTest": "mocha makeTest.js"
   },

@@ -1,5 +1,34 @@
 {
+  "name": "codejam3",
+  "version": "1.0.0",
+  "description": "function!",
+  "main": "index.js",
   "scripts": {
-    "test": "mocha test.js"
+    "test": "mocha sumTest",
+    "sumTest": "mocha sumTest.js",
+    "makeTest": "mocha makeTest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pulya10c/rsschool-codejam.git"
+  },
+  "author": "Aleh Serhiyenia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pulya10c/rsschool-codejam/issues"
+  },
+  "homepage": "https://github.com/Pulya10c/rsschool-codejam/blob/codejam-3/#readme",
+  "devDependencies": {
+    "mocha": "^5.0.1"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+    
+  },
+  "eslintConfig": ".eslintrc.json",
+  "env": {
+    "node": true,    
+    "mocha": true
   }
 }

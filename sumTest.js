@@ -1,9 +1,9 @@
-var assert = require('assert');
+const assert = require('assert');
+
 Object.freeze(assert);
 const sumOfOther = require('./sumOfOther/sumOfOther');
 
 describe('Return result for array', () => {
- 
   it('1', () => {
     const solutions = sumOfOther([2, 3, 4, 1]);
     assert.deepEqual(solutions, [8, 7, 6, 9]);
@@ -41,7 +41,6 @@ describe('Return result for array', () => {
 
   it('8', () => {
     const solutions = sumOfOther([13, 13, 13, 13, 13, 13]);
-    assert.deepEqual(solutions, [ 65, 65, 65, 65, 65, 65 ]);
+    assert.deepEqual(solutions, [65, 65, 65, 65, 65, 65]);
   });
-
-  });
+});

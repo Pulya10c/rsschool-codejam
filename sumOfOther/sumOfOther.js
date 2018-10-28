@@ -1,4 +1,4 @@
 module.exports = function sumOfOther(arr) {
-let sum = arr.reduce((acc, rss)=>acc+rss);
-return arr.map((num)=>sum-num);
-}
+  const sum = arr.reduce((acc, rss) => acc + rss);
+  return arr.map(num => sum - num);
+};
